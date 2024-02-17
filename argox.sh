@@ -537,13 +537,6 @@ EOF
                         ""
                     ]
                 }
-            },
-            "sniffing":{
-                "enabled":true,
-                "destOverride":[
-                    "http",
-                    "tls"
-                ]
             }
         },
         {
@@ -569,13 +562,6 @@ EOF
                 "sockopt":{
                     "acceptProxyProtocol":true
                 }
-            },
-            "sniffing":{
-                "enabled":true,
-                "destOverride":[
-                    "http",
-                    "tls"
-                ]
             }
         },
         {
@@ -652,15 +638,6 @@ EOF
                 "wsSettings":{
                     "path":"/${WS_PATH}-vl"
                 }
-            },
-            "sniffing":{
-                "enabled":true,
-                "destOverride":[
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "metadataOnly":false
             }
         },
         {
@@ -680,15 +657,6 @@ EOF
                 "wsSettings":{
                     "path":"/${WS_PATH}-vm"
                 }
-            },
-            "sniffing":{
-                "enabled":true,
-                "destOverride":[
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "metadataOnly":false
             }
         },
         {
@@ -708,15 +676,6 @@ EOF
                 "wsSettings":{
                     "path":"/${WS_PATH}-tr"
                 }
-            },
-            "sniffing":{
-                "enabled":true,
-                "destOverride":[
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "metadataOnly":false
             }
         },
         {
@@ -737,15 +696,6 @@ EOF
                 "wsSettings":{
                     "path":"/${WS_PATH}-sh"
                 }
-            },
-            "sniffing":{
-                "enabled":true,
-                "destOverride":[
-                    "http",
-                    "tls",
-                    "quic"
-                ],
-                "metadataOnly":false
             }
         }
     ],
@@ -773,7 +723,7 @@ EOF
         {
             "protocol":"wireguard",
             "settings":{
-                "secretKey":"YFYOAdbw1bKTHlNNi+aEjBM3BO7unuFC5rOkMRAz9XY=",
+                "secretKey":"uKxzFf1wfDX9WEr20G4oNDE3ex8fMUbh8FxVTfRHXV8=",
                 "address":[
                     "172.16.0.2/32",
                     "2606:4700:110:8a36:df92:102a:9602:fa18/128"
